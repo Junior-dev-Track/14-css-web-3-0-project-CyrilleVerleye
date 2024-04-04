@@ -1,0 +1,49 @@
+.m-new {
+    background-color: $color-new;
+    padding: 3rem 2rem;
+    padding-bottom: 0.5rem;
+
+    h2 {
+        //styleName: Heading (M);
+        font-family: 'Inter';
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        color:rgba(233, 170, 82, 1);
+        margin: 0;
+        margin-bottom: 4rem;
+
+
+    }
+
+    h3 {
+       color: rgba(255, 253, 250, 1);
+
+        //styleName: Heading (S);
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    p {
+        color: rgba(197, 198, 206, 1);
+
+        //styleName: Body;
+        font-family: 'Inter';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 3rem;
+
+    }
+
+    hr {
+        background: rgba(94, 96, 122, 1);
+        margin-bottom: 3rem;
+    }
+}

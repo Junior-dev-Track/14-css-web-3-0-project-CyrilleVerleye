@@ -1,0 +1,30 @@
+body .l-header {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    .l-header__logo {
+        img {
+            width: 4rem;
+        }
+    }
+
+    .l-header__hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        div {
+            width: 3rem;
+            height: 0.3rem;
+            background-color: $color-new;
+            margin-bottom: 0.3rem;
+        }
+    }
+
+    .l-header__nav {
+        display: none;
+    }
+}

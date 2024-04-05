@@ -9,11 +9,12 @@
 
 	.m-grid--first {
 		width: 80%;
+		height: 50vh;
 		display: grid;
 		margin-left: 10%;
 		margin-right: 10%;
 		grid-template-rows: 100%;
-		grid-template-columns: 50% 25%;
+		grid-template-columns: 65% 30%;
 		gap: 5%;
 	}
 }

@@ -1,0 +1,21 @@
+.l-header__nav {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		li {
+			a {
+				//styleName: Body;
+				font-family: "Inter";
+				font-size: 1.5em;
+				font-weight: 400;
+				line-height: 26px;
+				text-align: left;
+				color: #5e607a;
+				text-decoration: none;
+			}
+		}
+	}
+}

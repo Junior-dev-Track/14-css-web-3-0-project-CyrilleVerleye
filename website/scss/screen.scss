@@ -1,24 +1,20 @@
 // import reset css
 @import "tools/reset";
 
-
 // fichier de base
 @import "base/variables";
 @import "base/base";
 
-
-// layout 
+// layout
+@import "layout/layout";
 @import "layout/header";
 @import "layout/nav";
 @import "layout/footer";
-@import "layout/layout";
-
 
 // modules
 @import "modules/home";
 @import "modules/new";
 @import "modules/articles";
-
 
 // réalisation
 

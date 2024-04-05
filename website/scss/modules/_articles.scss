@@ -1,70 +1,70 @@
 .m-articles {
-    margin-top: 6rem;
-    margin-bottom: 8rem;
+	margin-top: 6rem;
+	margin-bottom: 8rem;
 
-    &--article {
-        margin-bottom: 3rem;
-        display: flex;
-    }
+	&--article {
+		margin-bottom: 3rem;
+		display: flex;
+	}
 
-    &--image {
-        img {
-            width: auto;
-            height: 40vw;
-        }
-    }
+	&--image {
+		img {
+			width: auto;
+			height: 40vw;
+		}
+	}
 
-    &--text {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 3rem;
-        width: 60vw;
-        height: 90%;
+	&--text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 3rem;
+		width: 60vw;
+		height: 90%;
 
+		ul {
+			list-style: none;
+			padding: 0;
 
-        ul {  
-            list-style: none;
-            padding: 0;
+			li {
+				text-align: left;
+				//styleName: Heading (M);
+				font-family: "Inter";
+				font-size: 32px;
+				font-weight: 700;
+				line-height: 32px;
+				text-align: left;
+				color: rgba(197, 198, 206, 1);
+			}
+		}
 
-            li {
-                text-align: left;
-                //styleName: Heading (M);
-                font-family: 'Inter';
-                font-size: 32px;
-                font-weight: 700;
-                line-height: 32px;
-                text-align: left;
-                color:rgba(197, 198, 206, 1);
-                ;
+		h3 {
+			//styleName: Heading (XS);
+			font-family: "Inter";
+			font-size: 18px;
+			font-weight: 800;
+			line-height: 24px;
+			text-align: left;
+		}
 
-            }
-        }
+		p {
+			color: rgba(94, 96, 122, 1);
+			//styleName: Body;
+			font-family: "Inter";
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 26px;
+			text-align: left;
+		}
+	}
+}
 
-        h3 {
-            //styleName: Heading (XS);
-                font-family: 'Inter';
-                font-size: 18px;
-                font-weight: 800;
-                line-height: 24px;
-                text-align: left;
-
-        }
-
-        p {
-            color:  rgba(94, 96, 122, 1);
-            //styleName: Body;
-            font-family: 'Inter';
-            font-size: 15px;
-            font-weight: 400;
-            line-height: 26px;
-            text-align: left;
-
-        }
-    }
-
-
-
-
- 
+@media screen and (min-width: 1280px) {
+	.m-articles {
+		&--image {
+			img {
+				width: 5vw;
+			}
+		}
+	}
 }

@@ -4,21 +4,25 @@
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 
 	&__logo {
+		width: 50%;
 		img {
 			width: 4rem;
 		}
 	}
 
 	&__hamburger {
+		width: 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: flex-end;
 
 		div {
-			width: 3rem;
-			height: 0.3rem;
+			width: 4rem;
+			height: 0.4rem;
 			background-color: $color-new;
 			margin-bottom: 0.3rem;
 		}
@@ -26,6 +30,28 @@
 
 	&__nav {
 		display: none;
+		width: 100%;
+	}
+
+	.active {
+		display: block;
+		left: 17rem;
+		top: 4rem;
+		width: 100%;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			padding: 0;
+			align-items: center;
+			li {
+
+				a {
+					font-size: 2rem;
+				}
+				
+			}
+		}
 	}
 }
 

@@ -61,9 +61,33 @@
 
 @media screen and (min-width: 1280px) {
 	.m-articles {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		height: 15vh;
+
+		&--article {
+			margin-bottom: 0;
+		}
+
 		&--image {
 			img {
-				width: 5vw;
+				height: 100%;
+			}
+		}
+
+		&--text {
+			width: 45%;
+			height: 100%;
+			justify-content: space-between;
+
+			ul {
+				margin: 0;
+			}
+
+			h3 {
+				margin-top: 1rem;
+				margin-bottom: 0;
 			}
 		}
 	}
